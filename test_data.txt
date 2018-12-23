@@ -1,0 +1,58 @@
+0 |
+1 |
+1 |
+0 |
+1 |
+0 |
+1 | Wetterinformationen der Firma MeteoTime sowie Informationen des Katastrophenschutzes
+0 |
+0 |
+1 |
+0 |
+0 |
+1 |
+0 |
+0 - Rufbit
+0 - „1“: Am Ende dieser Stunde wird MEZ/MESZ umgestellt.
+0 - „1“: MESZ („0“: MEZ)
+1 - „1“: MEZ („0“: MESZ)
+0 - „1“: Am Ende dieser Stunde wird eine Schaltsekunde eingefügt.
+1 - Beginn der Zeitinformation (ist immer „1“)
+1 |
+0 | Minute = 1
+0 | (Einer)
+0 |
+1 / 
+1 / Minute (Zehner) = 3
+0 / 
+1 - Parität -> Korrekt
+1 |
+0 | Stunde = 9
+0 | (Einer)
+1 |
+0 / Stunde (Zehner) = 0
+0 /
+0 - Parität -> Korrekt
+1 |
+1 | Tag = 3
+0 | (Einer)
+0 |
+0 / Tag (Zehner) = 2
+1 /
+1 |
+1 | Wochentag = 7 = Sonntag
+1 |
+0 /
+1 / Monat = 2
+0 / (Einer)
+0 /
+1 | Monat (Zehner) = 1
+0 /
+0 / Jahr = 8
+0 / (Einer)
+1 /
+1 |
+0 | Jahr = 1
+0 | (Zehner)
+0 |
+0 Parität -> korrekt
